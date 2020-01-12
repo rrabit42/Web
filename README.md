@@ -29,3 +29,12 @@ WEB Browser <--> WEB Server
 * WEB server : 내 컴퓨터에 있는 자료를 Web browser만 있는 모두가 가져다가 볼 수 있게 하는 것!  
 1. 직접 web server 설치  
 2. web hosting, 회사에게 맡김
+
+
+무료 호스팅 업체 : github pages  
+웹 서버 역할을 github가 해주는 것  
+HTML은 웹브라우저가 해석하기 때문에 서버 쪽에서 특별히 해줄 일이 없음. 이런 특성을 **정적(static)**이라고 함  
+자연스럽게 HTML만으로 만들어진 웹사이트를 호스팅하는 서비스 중에는 무료가 많음.
+
+
+동적(dynamic)은 php, python, ruby, java와 같은 언어를 이용하여 만드는 것 대체로 비용을 내야함  
