@@ -25,13 +25,21 @@
       .active {
         color: red;
       }
+      #hi {
+        color: blue;
+      }
+      {% comment %}
+      우선순위 : tag 선택자(포괄적인 범위) < class 선택자 < id 선택자(좁은 범위)
+      class 끼리는 보다 마지막에 있는 명령이 더 큰 영향력을 갖는다(적용받는 html코드와 가까이 있는 CSS코드)
+      id는 중복이 불가능함
+      {% endcomment %}
     </style>
   </head>
   <body>
     <h1><a href="index.html">WEB</a></h1>
     <ol>
       <li><a href="html.html" class="saw">HTML</a></li>
-      <li><a href="css.html" class="saw active">CSS</a></li>
+      <li><a href="css.html" class="saw active" id="hi">CSS</a></li>
       <li><a href="js.html">JavaScript</a></li>
     </ol>
 
