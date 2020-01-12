@@ -46,3 +46,11 @@ HTML은 웹브라우저가 해석하기 때문에 서버 쪽에서 특별히 해
 ex) Apache, IIS, Nginx  
 Apache는 오픈소스, 무료  
 설치방법 검색 : how to install apache http server *os*  
+
+
+Window  
+Apache  
+Mysql(db)  
+Php(middleware)  
+~~나는 XAMPP 깜..ㅎㅎ~~  
+~~ X(크로스 플랫폼), 아파치, mariadb(mysql에서 바뀜), php, perl~~  
