@@ -53,4 +53,4 @@ Apache
 Mysql(db)  
 Php(middleware)  
 ~~나는 XAMPP 깜..ㅎㅎ~~  
-~~ X(크로스 플랫폼), 아파치, mariadb(mysql에서 바뀜), php, perl~~  
+~~X(크로스 플랫폼), 아파치, mariadb(mysql에서 바뀜), php, perl~~  
