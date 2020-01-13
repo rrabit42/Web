@@ -4,66 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <style>
-    /*
-    순서는 안중요함
-    */
-    body{
-      margin:0;
-    }
-    a{
-      color:black;
-      text-decoration:none;
-    }
-    h1 {
-      font-size:45px;
-      text-align: center;
-      margin:0;
-      padding:20px;
-      border-bottom:1px solid gray;
-    }
-    ol{
-      border-right:1px solid gray;
-      width:200px;
-      margin:0;
-      padding:20px;
-    }
-    #grid ol{
-      padding-left:33px;
-    }
-    h2{
-      font-size:30px;
-      margin:0;
-    }
-    /*
-    display 속성으로 block, inline 등 지정 가능.
-    display:none; 하면 그 속성 가진 코드 안보이게 할 수도 있음
-
-    block: 화면 전체를 쓰는 display -> width, height를 통해 조절 가능
-    inline: content만큼만 쓰는 display
-
-    padding : border 안쪽
-    margin : border 바깥쪽
-    */
-    #grid{
-      display:grid;
-      grid-template-columns: 250px 1fr;
-    }
-    #article{
-      padding-left:25px;
-    }
-    @media(max-width:800px){
-      #grid{
-        display: block;
-      }
-      ol{
-      border-right:none;
-      }
-      h1{
-        border-bottom:none;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 <body>

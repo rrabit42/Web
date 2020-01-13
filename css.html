@@ -4,6 +4,7 @@
     <title></title>
     <meta charset="euc-kr">
     <!--HTML 문법에 맞춰서 style tag안은 CSS문법에 맞게 해석하라고 말해주는 것. 웹브라우저는 디폴트로 코드를 HTML이라고 생각하므로-->
+    <link rel="stylesheet" href="style.css">
     <style>
       {% comment %}
       선언자(selector) : a
@@ -36,16 +37,19 @@
     </style>
   </head>
   <body>
-    <h1><a href="index.html">WEB</a></h1>
-    <ol>
-      <li><a href="html.html" class="saw">HTML</a></li>
-      <li><a href="css.html" class="saw active" id="hi">CSS</a></li>
-      <li><a href="js.html">JavaScript</a></li>
-    </ol>
-
-    <h2>CSS</h2>
-    <p>
-      Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language.[1] Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications.
-    </p>
+      <h1><a href="index.html">WEB</a></h1>
+    <div id="grid">
+      <ol>
+        <li><a href="html.html" class="saw">HTML</a></li>
+        <li><a href="css.html" class="saw active" id="hi">CSS</a></li>
+        <li><a href="js.html">JavaScript</a></li>
+      </ol>
+      <div id="article">
+        <h2>CSS</h2>
+        <p>
+          Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language.[1] Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications.
+        </p>
+      </div>
+    </div>
   </body>
 </html>
