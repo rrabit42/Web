@@ -28,8 +28,12 @@
       margin:0;
       padding:20px;
     }
+    #grid ol{
+      padding-left:33px;
+    }
     h2{
       font-size:30px;
+      margin:0;
     }
     /*
     display 속성으로 block, inline 등 지정 가능.
@@ -41,20 +45,32 @@
     padding : border 안쪽
     margin : border 바깥쪽
     */
+    #grid{
+      display:grid;
+      grid-template-columns: 250px 1fr;
+    }
+    #article{
+      padding-left:25px;
+    }
   </style>
   <title>Document</title>
 </head>
 <body>
   <h1><a href="index.html">WEB</a></h1>
-  <ol>
-    <li><a href="html.html" class="saw">HTML</a></li>
-    <li><a href="css.html" class="saw active" id="hi">CSS</a></li>
-    <li><a href="js.html">JavaScript</a></li>
-  </ol>
-  <h2>CSS</h2>CSS의 박스 모델을 알아보자! Cascading Style Sheets(<a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a>)
-  <p>
-    h1 tag는 화면 전체를 쓰는 것을 알 수 있다<br>
-    a tag는 자기 content 크기만큼만
-  </p>
+  <div id="grid">
+    <ol>
+      <li><a href="html.html" class="saw">HTML</a></li>
+      <li><a href="css.html" class="saw active" id="hi">CSS</a></li>
+      <li><a href="js.html">JavaScript</a></li>
+    </ol>
+    <div id="article">
+      <h2>CSS</h2>
+      <p>
+        CSS의 박스 모델을 알아보자! Cascading Style Sheets(<a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a>)<br>
+        h1 tag는 화면 전체를 쓰는 것을 알 수 있다<br>
+        a tag는 자기 content 크기만큼만
+      </p>
+    </div>
+  </div>
 </body>
 </html>
